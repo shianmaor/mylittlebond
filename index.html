@@ -1,47 +1,77 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="he">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Baby Carrier Website</title>
+    <title>נשיאת תינוקות באהבה</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Welcome to Baby Carriers</h1>
+    <header class="main-header">
+        <div class="logo">
+            <h1>נשיאת תינוקות באהבה</h1>
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html" class="active">דף הבית</a></li>
+                <li><a href="about.html">מי אני</a></li>
+                <li><a href="blog.html">הבלוג</a></li>
+                <li><a href="videos.html">וידאו</a></li>
+                <li><a href="courses.html">קורסים</a></li>
+                <li><a href="guides.html">הדרכות</a></li>
+                <li><a href="faq.html">שאלות ותשובות</a></li>
+            </ul>
+        </nav>
     </header>
-    <nav>
-        <ul>
-            <li><a href="#about" class="active">About</a></li>
-            <li><a href="#products">Products</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
     <main>
-        <section id="about">
-            <h2>About Us</h2>
-            <p>At Baby Carriers, we believe every parent deserves a reliable and comfortable solution for carrying their baby. 
-               We design our carriers with safety, comfort, and style in mind.</p>
-            <p>Our mission is to make parenting easier and more enjoyable for families around the world.</p>
+        <section id="hero" class="hero-section">
+            <h2>ברוכים הבאים לעולם של נשיאת תינוקות</h2>
+            <p>למדו על נשיאה נכונה וכיצד להפוך את החיים עם תינוקות לקלים יותר.</p>
         </section>
-        <section id="products">
-            <h2>Our Products</h2>
-            <div>
-                <img src="images/baby_carrier1.jpg" alt="Baby Carrier 1" class="product-image">
-                <p>This ergonomic baby carrier offers comfort for you and your little one. Perfect for parents on the go.</p>
-                <a href="#" class="btn">Learn More</a>
+        <section id="videos" class="video-section">
+            <h3>צפו בסרטונים שלי</h3>
+            <div class="video-container">
+                <iframe 
+                    src="https://www.youtube.com/watch?v=_PHysfiE0IM&ab_channel=%D7%9C%D7%90%D7%95%D7%9E%D7%A0%D7%95%D7%AA" 
+                    title="Video 1" 
+                    frameborder="0" 
+                    allowfullscreen>
+                </iframe>
+                <iframe 
+                    src="https://www.youtube.com/watch?v=Osm5ko0CRbE&ab_channel=EmmanuelCrown" 
+                    title="Video 2" 
+                    frameborder="0" 
+                    allowfullscreen>
+                </iframe>
+                <iframe 
+                    src="https://www.youtube.com/watch?v=29Toeq0oyM8&ab_channel=Futurepedia" 
+                    title="Video 3" 
+                    frameborder="0" 
+                    allowfullscreen>
+                </iframe>
             </div>
         </section>
-        <section id="contact">
-            <h2>Contact Us</h2>
-            <p>Have questions? Get in touch with us!</p>
-            <p>Email: <a href="mailto:info@babycarriers.com">info@babycarriers.com</a></p>
-            <a href="mailto:info@babycarriers.com" class="btn">Contact Us</a>
+        <section id="social-media" class="social-section">
+            <h3>עקבו אחרי</h3>
+            <div class="social-links">
+                <a href="https://www.instagram.com/" target="_blank">
+                    <img src="images/instagram.png" alt="Instagram Logo" class="social-icon">
+                </a>
+                <a href="https://www.youtube.com/" target="_blank">
+                    <img src="images/youtube.png" alt="YouTube Logo" class="social-icon">
+                </a>
+                <a href="https://www.facebook.com/" target="_blank">
+                    <img src="images/facebook.png" alt="Facebook Logo" class="social-icon">
+                </a>
+            </div>
+        </section>
+        <section id="about">
+            <h2>מי אני</h2>
+            <p>אני מדריכה מוסמכת לנשיאת תינוקות ועוזרת להורים למצוא פתרונות נשיאה שמתאימים להם.</p>
         </section>
     </main>
     <footer>
-        <p>&copy; 2024 Baby Carriers. All rights reserved.</p>
+        <p>&copy; 2024 כל הזכויות שמורות. נשיאת תינוקות באהבה.</p>
     </footer>
-    <script src="script.js"></script>
 </body>
 </html>
